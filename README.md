@@ -1,4 +1,4 @@
-# Welcome
+# Voxel-wise behavioral encoding model of virtual navigation
 Analysis & voxel-time-course simulation code for: 
 Behavior-dependent directional tuning in the human visual-navigation network. 
 Nau, Navarro Schrˆder, Frey, Doeller. 2020. Nature Communications
