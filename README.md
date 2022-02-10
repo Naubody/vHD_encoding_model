@@ -1,7 +1,7 @@
 # Voxel-wise encoding model of navigation behavior
 Analysis & voxel-time-course simulation code for: 
 Behavior-dependent directional tuning in the human visual-navigation network. 
-Nau, Navarro Schrˆder, Frey, Doeller. 2020. Nature Communications
+Nau, Navarro Schröder, Frey, Doeller. 2020. Nature Communications
 
 This code simulates voxel-time-courses, builds various vHD-encoding models, trains 
 them using cross-validated ridge-regression and tests them on held-out data. 
