@@ -1,14 +1,14 @@
 % ----------------------------------------------------------------------- %
 % vHD_encoding_model_simulation.
 % Sample code for a voxel-wise encoding model of virtual head direction
-% (vHD). This code simulates voxel-time-courses, builds various vHD-encoding
-% models, trains them using cross-validated ridge-regression and tests them
+% (vHD). This code simulates voxel time courses, builds various vHD-encoding
+% models, trains them using cross-validated ridge regression and tests them
 % on held-out data. This code requires SPM12.
 % M.Nau, Jan. 2020
 %
 % Reference:
 % Behavior-dependent directional tuning in the human visual-navigation
-% network. Nau, Navarro Schröder, Frey, Doeller. 2020. Nature Communications
+% network. Nau, Navarro SchrÃ¶der, Frey, Doeller. 2020. Nature Communications
 %
 % See methods and Supplementary Figure 4 for details.
 % ----------------------------------------------------------------------- %
@@ -24,7 +24,7 @@ sets.widths          = [10 15 20 24 30 36 45 60]; % vHD-tuning widths
 sets.test_run        = 3; % 3 by default, overall 5 runs
 sets.TR              = 2.756; % TR in seconds
 
-% simulation settings
+% time-course simulation settings
 sets.n_voxels        = 2500; % n simulated voxels
 sets.model_flag      = 'bimodal'; % voxel tuning profile - options: 'unimodal', 'bimodal', 'random'
 sets.noise_levels    = [1:10]; % noise level in stds
