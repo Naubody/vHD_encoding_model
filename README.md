@@ -7,6 +7,8 @@ This code simulates voxel time courses, builds various vHD-encoding models, trai
 them using cross-validated ridge regression and tests them on held-out data. 
 Requires SPM12.
 
+![methods](media/encoding_model.png)
+
 # How to run the code
 1) Download code
 1) Open the script: "vHD_simulation.m"
