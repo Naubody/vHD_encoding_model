@@ -3,8 +3,8 @@ Analysis & voxel-time-course simulation code for:
 Behavior-dependent directional tuning in the human visual-navigation network. 
 Nau, Navarro Schröder, Frey, Doeller. 2020. Nature Communications
 
-This code simulates voxel time courses, builds various vHD-encoding models, trains 
-them using cross-validated ridge regression and tests them on held-out data. 
+This code simulates voxel time courses, builds various encoding models of virtual head direction (vHD), trains 
+them using cross-validated ridge regression, and finally tests them on held-out data. The model also estimates the vHD-tuning width for each voxel (similar to population receptive field mapping). 
 Requires SPM12.
 
 Click [HERE](https://www.nature.com/articles/s41467-020-17000-2/figures/2) for a 
@@ -39,4 +39,4 @@ motion parameters...).
 
 # Questions?
 If you have any comments or questions, please reach out to me: 
-matthias.nau[at]ntnu.no
+matthias.nau[at]nih.gov
